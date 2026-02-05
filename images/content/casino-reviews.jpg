@@ -1,0 +1,12 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="reviewGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#ef4444;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#reviewGrad)"/>
+  <text x="200" y="140" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Casino</text>
+  <text x="200" y="180" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Reviews</text>
+  <text x="200" y="210" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" opacity="0.9">★★★★★</text>
+</svg>
