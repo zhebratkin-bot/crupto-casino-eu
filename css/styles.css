@@ -643,6 +643,31 @@ a:hover {
 .content {
   max-width: 900px;
   margin: 0 auto;
+  background: var(--color-white);
+  padding: var(--spacing-2xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid rgba(16,24,40,0.04);
+  color: var(--color-dark);
+}
+
+.content p {
+  color: var(--color-dark);
+  font-size: var(--font-size-base);
+  line-height: 1.8;
+}
+
+.content a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.content blockquote {
+  border-left: 4px solid var(--color-primary);
+  padding: var(--spacing-md) var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+  background: linear-gradient(90deg, rgba(37,99,235,0.03), rgba(139,92,246,0.03));
+  color: var(--color-dark);
 }
 
 .content img {
